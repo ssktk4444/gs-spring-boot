@@ -21,5 +21,8 @@ jobs:
     - name: Build with Maven
       run: mvn -B package --file initial/pom.xml
 
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy --file initial/pom.xml
+    - name: ls
+      run: ls -l
+
+#    - name: Publish to GitHub Packages Apache Maven
+#      run: mvn deploy --file initial/pom.xml
