@@ -22,7 +22,7 @@ jobs:
       run: mvn -B package --file initial/pom.xml
 
     - name: ls
-      run: ls -l
+      run: ls -l initial/
 
 #    - name: Publish to GitHub Packages Apache Maven
 #      run: mvn deploy --file initial/pom.xml
